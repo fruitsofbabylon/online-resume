@@ -49,6 +49,7 @@ li {
     font-size: 14px;
 }
 
+.name,
 .introduction,
 .info {
     display: flex;
