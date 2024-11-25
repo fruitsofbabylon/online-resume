@@ -1,0 +1,42 @@
+body {
+    --color-bg: #ffffff;
+    --color-text: #2f2e41;
+    --color-name: #424058;
+    --color-link: #a29eb2;
+    --color-header: #d2738f;
+    --color-line: #c6c2db;
+
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.introduction,
+.info {
+    display: flex;
+}
+
+.left-column {
+    flex-basis: 60%;
+}
+
+.right-column {
+    flex-basis: 40%;
+}
+
+.links {
+    display: flex;
+    justify-content: space-between;
+}
+
+@media print, screen and (min-width: 210mm) {
+    .resume {
+      width: 210mm;
+      max-width: 210mm;
+      height: 297mm;
+      max-height: 297mm;
+      padding: 0;
+      margin: 0 auto;
+    }
+}
